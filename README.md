@@ -1,6 +1,6 @@
 # Ochrona danych
 
-####Zadanie 1 (Test fermeta)
+#### Zadanie 1 (Test fermeta)
 <br>
 
 To do:
@@ -24,7 +24,7 @@ To do:
 
 
 # 
-####Zadanie 2 (Klucz prywatny / publiczny)
+#### Zadanie 2 (Klucz prywatny / publiczny)
 
 <br>
 
@@ -53,7 +53,7 @@ To do:
 
 
 # 
-####Zadanie 3 (Kodowanie i dekodowanie RSA )
+#### Zadanie 3 (Kodowanie i dekodowanie RSA )
 
 <br>
 
@@ -67,6 +67,7 @@ To do:
 - [x] Generowanie Zakodowanego tekstu
 - [x] Zapisywanie do pliku
 
+<br>
 
 - [x] Zczytwanie klucza prywatnego z plików
 - [x] Zczytwanie tekstu zakodowanego z plików
@@ -76,6 +77,7 @@ To do:
 - [x] Generowania tekstu
 - [x] Zapisywanie do pliku
 
+<br>
 
 - [ ] Front-end
 - [ ] Zapis do wybranej lokalizacji
