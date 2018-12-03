@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zad2/fet2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="299">
               <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
             </state>
           </provider>
@@ -34,6 +34,9 @@
       <find>error</find>
       <find>errors</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,6 +74,7 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -83,31 +87,6 @@
             <path>
               <item name="3.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="3.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3.1" type="462c0819:PsiDirectoryNode" />
-              <item name="key" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3.1" type="462c0819:PsiDirectoryNode" />
-              <item name="textFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3.1" type="462c0819:PsiDirectoryNode" />
-              <item name="zad1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3.1" type="462c0819:PsiDirectoryNode" />
-              <item name="zad2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3.1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3.1" type="462c0819:PsiDirectoryNode" />
-              <item name="zad3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="3.1" type="b2602c69:ProjectViewProjectNode" />
@@ -161,17 +140,17 @@
       <workItem from="1543622636822" duration="111000" />
       <workItem from="1543657172755" duration="1244000" />
       <workItem from="1543663890744" duration="39042000" />
-      <workItem from="1543829015720" duration="9739000" />
+      <workItem from="1543829015720" duration="9986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52331000" />
+    <option name="totallyTimeSpent" value="52578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -185,7 +164,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14267516" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14267516" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -323,7 +302,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zad2/fet2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="299">
           <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
         </state>
       </provider>
