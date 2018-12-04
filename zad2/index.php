@@ -42,28 +42,28 @@
                 <div class="col-sm-6 my-5">
                     <div class="card">
                         <div class="card-body" style="position: relative">
-                            <h5 class="card-title">Klucz publiczny</h5>
+                            <h5 class="card-title">Klucz Prywatny</h5>
                             <div v-if="modul != 0">
                                 <div style="position:absolute; right: 20px; top: 10px;" data-toggle="modal" data-target="#exampleModal">
                                     <i style="cursor: pointer;" class="fas fa-info-circle"></i>
                                 </div>
                                 <p>({{valD}}:{{modul}})</p>
                             </div>
-                            <button class="btn btn-secondary" @click="saveKey(valD, modul, 'private')" :disabled="finish == false">Zapisz Klucz Publiczny</button>
+                            <button class="btn btn-secondary" @click="saveKey(valD, modul, 'private')" :disabled="finish == false">Zapisz Klucz Prywatny</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 my-5">
                     <div class="card">
                         <div class="card-body" style="position: relative">
-                            <h5 class="card-title">Klucz prywatny</h5>
+                            <h5 class="card-title">Klucz Publiczny</h5>
                             <div  v-if="modul != 0">
                                 <div style="position:absolute; right: 20px; top: 10px;" data-toggle="modal" data-target="#exampleModal">
                                     <i style="cursor: pointer;" class="fas fa-info-circle"></i>
                                 </div>
                                 <p>({{valE}}:{{modul}})</p>
                             </div>
-                            <button class="btn btn-secondary" @click="saveKey(valE, modul, 'public')" :disabled="finish == false">Zapisz Klucz Prywatny</button>
+                            <button class="btn btn-secondary" @click="saveKey(valE, modul, 'public')" :disabled="finish == false">Zapisz Klucz Publiczny</button>
                         </div>
                     </div>
                 </div>
@@ -77,6 +77,14 @@
                        Plik zapisany
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" v-show="codeFinish">
+        <div class="row">
+            <div class="col-12">
+                <a href="../zad3/"><button class="btn btn-success w-100">Zakoduj tekst</button></a>
             </div>
         </div>
     </div>
@@ -136,6 +144,7 @@
             valD: 0,
             finish: false,
             statusFile: false,
+            codeFinish: false,
         },
 
         methods:{
@@ -171,6 +180,7 @@
                     .then(function (response) {
                         // console.log(response.data);
                         tempThis.statusFile = response.data;
+                        tempThis.codeFinish = response.data;
 
                     })
                     .catch(function (error) {

@@ -82,7 +82,7 @@ To do:
 - [X] Front-end
 - [ ] Zapis do wybranej lokalizacji
 - [X] Dynamiczna zmiana tekstu jawnego
-- [ ] Re-losowanie klucza publicznego i prywatnego
+- [X] Re-losowanie klucza publicznego i prywatnego
 - [X] Interakcje z użytkownikiem
 - [X] Wyświetlanie tekstu zakodowanego i odkodowanego 
 
