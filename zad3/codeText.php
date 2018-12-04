@@ -75,6 +75,11 @@
     $data = $codeTextArrayToString;
     fwrite($handle, $data);
 
+    $myObj["codeText"] = $codeTextArrayToString;
+
+
+    header('Content-Type: application/json');
+    echo json_encode($myObj);
 
 
 ?>

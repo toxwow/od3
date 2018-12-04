@@ -39,7 +39,7 @@ To do:
 - [x] Interakcja
 
 
-- [ ] Front-end
+- [X] Front-end
 - [ ] Zapisywanie do wybranej lokalizacji
 
 > Działanie
@@ -79,10 +79,10 @@ To do:
 
 <br>
 
-- [ ] Front-end
+- [X] Front-end
 - [ ] Zapis do wybranej lokalizacji
-- [ ] Dynamiczna zmiana tekstu jawnego
+- [X] Dynamiczna zmiana tekstu jawnego
 - [ ] Re-losowanie klucza publicznego i prywatnego
-- [ ] Interakcje z użytkownikiem
-- [ ] Wyświetlanie tekstu zakodowanego i odkodowanego 
+- [X] Interakcje z użytkownikiem
+- [X] Wyświetlanie tekstu zakodowanego i odkodowanego 
 

@@ -17,7 +17,7 @@
     <div class="container" style="margin-top:50px;">
         <div class="row">
             <div class="col-sm-12">
-                <input  class="form-control" type="text" v-model="number" placeholder="Wprowadź liczbę">
+                <input  class="form-control" type="number" min="5" v-model="number" placeholder="Wprowadź liczbę">
             </div>
             <div class="col-sm-12 mt-2">
                 <div class="row">
@@ -85,7 +85,7 @@
         el: '#app',
         data: {
             test1: "",
-            number: "",
+            number: "5",
             pow: 0,
             attempts: "",
             drawMin: 2,
@@ -127,17 +127,6 @@
         watch:{
             number: function(){
                 this.drawMax = this.number - 2
-                if(this.number < 5){
-                    this.number = 5;
-                }
-
-                // let tekstToString = this.number.toString();
-                // let dlugoscTekstu = tekstToString.length;
-                // let num1 = tekstToString.slice(0, Math.ceil(dlugoscTekstu / 2));
-                // let num2 = tekstToString.slice(Math.ceil(dlugoscTekstu / 2), dlugoscTekstu);
-                // this.numSplit1 = parseInt(num1);
-                // this.numSplit2 = parseInt(num2);
-                // console.log(this.numSplit1 + "   :   " + this.numSplit2);
 
             },
 

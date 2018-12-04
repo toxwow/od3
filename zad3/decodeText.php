@@ -65,7 +65,11 @@ $handle = fopen($my_file, 'w') or die('Cannot open file:  '.$my_file);
 $data = $textDecode;
 fwrite($handle, $data);
 
+$myObj["decodeText"] = $textDecode;
 
+
+header('Content-Type: application/json');
+echo json_encode($myObj);
 
 
 ?>

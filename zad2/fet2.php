@@ -6,9 +6,15 @@ $_POST = json_decode(file_get_contents("php://input"),true);
     $test1 = false;
 
     function RandomNumbers($min, $max, $quantity) {
-        $numbers = range($min, $max);
-        shuffle($numbers);
-        return array_slice($numbers, 0, $quantity);
+        $arrayRandom = [];
+        for ($start = 0 ; $start < $quantity; $start++){
+            do {
+                $randomNumber = rand($min, $max);
+            } while (in_array($randomNumber, $arrayRandom));
+            $arrayRandom[$start] = $randomNumber;
+        }
+        return $arrayRandom;
+
     }
 
     function potegowanieModulo (  $a,  $x,  $m){
@@ -26,7 +32,6 @@ $_POST = json_decode(file_get_contents("php://input"),true);
 
     function doFermet($v, $p){
         global $arrayRandom;
-        global $arrayMod;
 
         if ($v === 1) {
             return false;
@@ -84,16 +89,6 @@ $_POST = json_decode(file_get_contents("php://input"),true);
 
     $valE = $ii;
 
-
-//    function searchD($e, $mod){
-//        $x = $mod;
-//        $d = ($x * $e) % $mod;
-//        while($d !== 1){
-//            $x--;
-//            $d = ($x * $e) % $mod;
-//        }
-//        return $x;
-//    }
     function modInverse($a, $m)
     {
         $m0 = $m;
